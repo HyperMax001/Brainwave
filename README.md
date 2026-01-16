@@ -60,7 +60,7 @@ Reads and interacts with web pages using DOM & accessibility data
 🔍 Explainable & Human-Aligned Actions
 Every action is planned, validated, and explained before execution.
 
-Phase 1 — Personalized Agentic Core (Current Focus)
+🧩Phase 1 — Personalized Agentic Core (Current Focus)
 
 At the current stage, our primary focus is on building Whistle as a highly capable, personalized agent that can:
 
@@ -86,7 +86,8 @@ Maintain structured task graphs (flowcharts) for repeatable execution
 
 The goal of this phase is to ensure Whistle functions as a dependable, intelligent task orchestrator, capable of handling real productivity workflows before expanding its autonomy.
 
-Phase 2 — Browser Agent Capabilities (In Progress / Target Phase)
+
+🧩Phase 2 — Browser Agent Capabilities (In Progress / Target Phase)
 
 In parallel, we are actively working toward enabling Browser Agent functionality, where Whistle will be able to:
 
