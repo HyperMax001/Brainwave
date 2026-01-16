@@ -60,23 +60,49 @@ Reads and interacts with web pages using DOM & accessibility data
 🔍 Explainable & Human-Aligned Actions
 Every action is planned, validated, and explained before execution.
 
-🏗️ System Architecture (High Level)
-User (Speech / Text)
-        ↓
-Speech Recognition (ASR)
-        ↓
-Emotion Assessment
-        ↓
-LangGraph Cognitive Core
-(Intent → Plan → Decide)
-        ↓
-┌───────────────┐
-│ Talk (Chat)   │
-│ Tool Calls    │
-│ Browser Agent │
-└───────────────┘
-        ↓
-Text-to-Speech + UI Feedback
+Phase 1 — Personalized Agentic Core (Current Focus)
+
+At the current stage, our primary focus is on building Whistle as a highly capable, personalized agent that can:
+
+Understand user intent through natural conversation
+
+Adapt behavior based on detected emotional state
+
+Orchestrate complex tasks using predefined tools
+
+Execute multi-step workflows reliably and safely
+
+In this phase, Whistle can:
+
+Use tools such as Gmail, Calendar, and Slack
+
+Define custom task flows composed of multiple tool actions
+
+Schedule tasks for specific times or recurring intervals
+
+Trigger predefined workflows using custom trigger words or phrases
+
+Maintain structured task graphs (flowcharts) for repeatable execution
+
+The goal of this phase is to ensure Whistle functions as a dependable, intelligent task orchestrator, capable of handling real productivity workflows before expanding its autonomy.
+
+Phase 2 — Browser Agent Capabilities (In Progress / Target Phase)
+
+In parallel, we are actively working toward enabling Browser Agent functionality, where Whistle will be able to:
+
+Read and understand web pages using DOM and accessibility data
+
+Identify actionable elements such as buttons, inputs, and links
+
+Perform safe, validated browser actions (click, type, navigate)
+
+Explain actions before and after execution to maintain transparency
+
+This phase represents the transition from:
+
+“An assistant that can coordinate tools”
+to
+“An agent that can directly operate within the browser on the user’s behalf.”
 
 🧠 Cognitive Core (LangGraph)
 
