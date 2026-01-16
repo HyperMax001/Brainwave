@@ -217,23 +217,3 @@ Feasible scope for a hackathon
 
 Strong demo-ability
 
-👥 Team
-
-Built by Agentic Labs
-for the brAInwave AI Hackathon
-
-📌 Disclaimer
-
-This project is a prototype built for hackathon demonstration purposes.
-It is not intended for production use without further security, privacy, and robustness improvements.
-
-⭐ If You’re a Judge or Mentor
-
-Thank you for taking the time to review Whistle.
-We’re happy to walk you through:
-
-The cognitive core
-
-Emotion-aware decision making
-
-Browser agent safety design
